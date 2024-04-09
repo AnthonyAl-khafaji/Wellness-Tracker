@@ -8,27 +8,25 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-
-
+// WellnessTracker class represents the main application for tracking wellness activities
 public class WellnessTracker extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-
+        // Creating labels and text fields for user input
         Label usernameLabel = new Label("Username:");
         TextField usernameField = new TextField();
 
         Label emailLabel = new Label("Email:");
         TextField emailField = new TextField();
 
-        // Creating labels and text fields for user input
         Label exerciseNameLabel = new Label("Exercise Type (Weightlifting, Cardio, etc.):");
         TextField exerciseNameField = new TextField();
 
         Label workoutDurationLabel = new Label("Workout Duration (mins):");
         TextField workoutDurationField = new TextField();
 
-        Label workoutCaloriesLabel = new Label("Calories Burned(kcal):");
+        Label workoutCaloriesLabel = new Label("Calories Burned (kcal):");
         TextField workoutCaloriesField = new TextField();
 
         Label reminderMessageLabel = new Label("Workout Note:");
