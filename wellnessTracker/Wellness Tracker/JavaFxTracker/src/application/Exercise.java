@@ -1,3 +1,6 @@
+//This code defines a Java class called Exercise, which represents an entity for storing information about different exercises. 
+//The purpose of this code is to model and manage exercise data within a Java application.
+
 package application;
 
 // Exercise class represents an exercise entity
