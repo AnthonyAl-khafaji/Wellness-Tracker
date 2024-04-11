@@ -1,4 +1,3 @@
-//this code sets up JavaFX application with a main window containing a BorderPane layout and specific dimensions
 package application;
 
 import javafx.application.Application;
