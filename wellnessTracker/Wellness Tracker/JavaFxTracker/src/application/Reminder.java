@@ -2,9 +2,9 @@ package application;
 
 import java.util.Date;
 
-// Reminder class represents a reminder entity
+// defines the Reminder class 
 public class Reminder {
-    // Private member variables to store the date and message of the reminder
+    // declaring Private variables to store the date and message of the reminder
     private Date date;
     private String message;
     
